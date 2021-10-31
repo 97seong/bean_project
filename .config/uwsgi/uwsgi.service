@@ -3,7 +3,7 @@ Description=uWSGI service
 After=syslog.target
 
 [Service]
-ExecStart=/home/ubuntu/myvenv/bin/uwsgi -i /srv/bean_project/.config/uwsgi/bean.ini
+ExecStart=/home/ubuntu/venv/bin/uwsgi -i /srv/bean_project/.config/uwsgi/bean.ini
 
 Restart=always
 KillSignal=SIGQUIT
